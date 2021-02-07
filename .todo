@@ -2,3 +2,4 @@
 Добавить react-hot-loader в plugins babelrc (https://prnt.sc/xjokgn https://prnt.sc/xlw0qd)
 webpack.common.js options localIdentName => для прод и девелоп
 babelrc для директории webpack => https://prnt.sc/xlxn2r
+ndb - дебаг ноды

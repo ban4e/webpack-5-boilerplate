@@ -1,6 +1,7 @@
 import WebpackBar from 'webpackbar';
 import FriendlyErrorsWebpackPlugin from 'friendly-errors-webpack-plugin';
 import { BundleAnalyzerPlugin } from 'webpack-bundle-analyzer';
+import Dotenv from 'dotenv-webpack';
 
 export const connectBuildProgressIndicator = () => ({
     plugins: [new WebpackBar()]
@@ -18,4 +19,8 @@ export const connectBundleAnalyzer = () => ({
             generateStatsFile: true
         })
     ]
+});
+
+export const connectDotenv = () => ({
+    plugins: [new Dotenv()]
 });
